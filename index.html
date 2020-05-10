@@ -1,19 +1,46 @@
-<!doctype html>
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
 <head>
 	<meta charset="utf-8">
-	<script>
-		// TODO: create a handler
-    window.addEventListener("load", function(){
-        // TODO: register the handler
-    });
-	</script>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Studio 15</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="./assets/style.css">
+
 </head>
 
 <body>
+	<!--[if lt IE 7]>
+			<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+		<![endif]-->
 
-	<form id="searchForm">
-    <!-- TODO: add form elements -->
-	</form>
+	<div class="container">
+		<form id="searchForm" action="">
+			<!-- TODO: add form elements -->
+			<input class="name-box" type="text" name="q" />
 
+			<label>Google<input type="radio" name="engine" value="google" /></label>
+			<label>DuckDuckGo<input type="radio" name="engine" value="duckDuckGo" /></label>
+			<label >Bing<input type="radio" name="engine" value="bing" /></label>
+			<label >Ask<input type="radio" name="engine" value="ask" /></label>
+			
+			<button class="goBtn" value="Go!">Submit!</button>
+
+
+
+		</form>
+	</div>	
+	
+
+
+	<script src="./assets/app.js" async defer></script>
 </body>
+
+</html>
